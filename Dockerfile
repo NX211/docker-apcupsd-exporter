@@ -1,7 +1,7 @@
-FROM ubuntu:xenial
+FROM ubuntu:20.04
 
 ARG URL=https://github.com/mdlayher/apcupsd_exporter/releases/download/
-ARG VERSION=0.1.0
+ARG VERSION=0.2.0
 
 ENV BUILD_DEPS="wget ca-certificates"
 
